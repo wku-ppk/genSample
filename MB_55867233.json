@@ -1,0 +1,2097 @@
+{
+  "hash_id": "55867233",
+  "db_root": "../clump-DB/dataset/shapes",
+  "out_dir": "ms_data",
+  "gradation_csv": "grad.csv",
+  "seed": 1234,
+  "n_shapes": 20,
+  "molecule_name": "clumps_01",
+  "filters": {
+    "L_range": "0.9,1.1",
+    "e_range": "0.7,0.8",
+    "f_range": "0.6,0.7",
+    "sphericity_range": "0.5,0.9",
+    "roundness_R1_range": "0.4,0.6",
+    "roundness_R2_range": ""
+  },
+  "gradation_points": [
+    {
+      "D": 0.0001,
+      "passing": 0.0
+    },
+    {
+      "D": 0.0002,
+      "passing": 0.05
+    },
+    {
+      "D": 0.0003,
+      "passing": 0.1
+    },
+    {
+      "D": 0.0004,
+      "passing": 0.2
+    },
+    {
+      "D": 0.0005,
+      "passing": 0.3
+    },
+    {
+      "D": 0.0006,
+      "passing": 0.4
+    },
+    {
+      "D": 0.0007,
+      "passing": 0.5
+    },
+    {
+      "D": 0.0008,
+      "passing": 0.6
+    },
+    {
+      "D": 0.0009,
+      "passing": 0.7
+    },
+    {
+      "D": 0.001,
+      "passing": 0.8
+    },
+    {
+      "D": 0.0015,
+      "passing": 0.9
+    },
+    {
+      "D": 0.002,
+      "passing": 1.0
+    }
+  ],
+  "bins": [
+    {
+      "bin_index": 1,
+      "Dlo": 0.0001,
+      "Dhi": 0.0002,
+      "bin_frac": 0.05,
+      "Dtarget_geomean": 0.0001414213562373095,
+      "templates": 20
+    },
+    {
+      "bin_index": 2,
+      "Dlo": 0.0002,
+      "Dhi": 0.0003,
+      "bin_frac": 0.05,
+      "Dtarget_geomean": 0.0002449489742783178,
+      "templates": 20
+    },
+    {
+      "bin_index": 3,
+      "Dlo": 0.0003,
+      "Dhi": 0.0004,
+      "bin_frac": 0.1,
+      "Dtarget_geomean": 0.00034641016151377546,
+      "templates": 20
+    },
+    {
+      "bin_index": 4,
+      "Dlo": 0.0004,
+      "Dhi": 0.0005,
+      "bin_frac": 0.09999999999999998,
+      "Dtarget_geomean": 0.00044721359549995795,
+      "templates": 20
+    },
+    {
+      "bin_index": 5,
+      "Dlo": 0.0005,
+      "Dhi": 0.0006,
+      "bin_frac": 0.10000000000000003,
+      "Dtarget_geomean": 0.0005477225575051661,
+      "templates": 20
+    },
+    {
+      "bin_index": 6,
+      "Dlo": 0.0006,
+      "Dhi": 0.0007,
+      "bin_frac": 0.09999999999999998,
+      "Dtarget_geomean": 0.0006480740698407859,
+      "templates": 20
+    },
+    {
+      "bin_index": 7,
+      "Dlo": 0.0007,
+      "Dhi": 0.0008,
+      "bin_frac": 0.09999999999999998,
+      "Dtarget_geomean": 0.0007483314773547883,
+      "templates": 20
+    },
+    {
+      "bin_index": 8,
+      "Dlo": 0.0008,
+      "Dhi": 0.0009,
+      "bin_frac": 0.09999999999999998,
+      "Dtarget_geomean": 0.000848528137423857,
+      "templates": 20
+    },
+    {
+      "bin_index": 9,
+      "Dlo": 0.0009,
+      "Dhi": 0.001,
+      "bin_frac": 0.10000000000000009,
+      "Dtarget_geomean": 0.0009486832980505138,
+      "templates": 20
+    },
+    {
+      "bin_index": 10,
+      "Dlo": 0.001,
+      "Dhi": 0.0015,
+      "bin_frac": 0.09999999999999998,
+      "Dtarget_geomean": 0.0012247448713915891,
+      "templates": 20
+    },
+    {
+      "bin_index": 11,
+      "Dlo": 0.0015,
+      "Dhi": 0.002,
+      "bin_frac": 0.09999999999999998,
+      "Dtarget_geomean": 0.0017320508075688774,
+      "templates": 20
+    }
+  ],
+  "selected_shapes": [
+    {
+      "msr": 1,
+      "case_id": "6f6baf9491ae",
+      "case_dir": "../clump-DB/dataset/shapes/6f6baf9491ae",
+      "src": "../clump-DB/dataset/shapes/6f6baf9491ae/molecule_mc.data",
+      "dst": "ms_data/msr1.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6581226129739013,
+        "round_R1": 0.5079303130055569,
+        "round_R2": 0.4787298786873368,
+        "D_in": 0.8328691331830127,
+        "r_in": 0.41643456659150635
+      }
+    },
+    {
+      "msr": 2,
+      "case_id": "a2e774c04cb0",
+      "case_dir": "../clump-DB/dataset/shapes/a2e774c04cb0",
+      "src": "../clump-DB/dataset/shapes/a2e774c04cb0/molecule_mc.data",
+      "dst": "ms_data/msr2.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6261205769587866,
+        "round_R1": 0.554950175955261,
+        "round_R2": 0.5260356869870285,
+        "D_in": 0.7524046290531449,
+        "r_in": 0.37620231452657243
+      }
+    },
+    {
+      "msr": 3,
+      "case_id": "6e8d4a304b54",
+      "case_dir": "../clump-DB/dataset/shapes/6e8d4a304b54",
+      "src": "../clump-DB/dataset/shapes/6e8d4a304b54/molecule_mc.data",
+      "dst": "ms_data/msr3.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6752901410963263,
+        "round_R1": 0.5210635351345274,
+        "round_R2": 0.4930451885704184,
+        "D_in": 0.8012366911553043,
+        "r_in": 0.40061834557765214
+      }
+    },
+    {
+      "msr": 4,
+      "case_id": "1b9d6e00c1b5",
+      "case_dir": "../clump-DB/dataset/shapes/1b9d6e00c1b5",
+      "src": "../clump-DB/dataset/shapes/1b9d6e00c1b5/molecule_mc.data",
+      "dst": "ms_data/msr4.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6774015065642524,
+        "round_R1": 0.5208895342402704,
+        "round_R2": 0.4921532843170033,
+        "D_in": 0.828335581178863,
+        "r_in": 0.4141677905894315
+      }
+    },
+    {
+      "msr": 5,
+      "case_id": "14c04c62d088",
+      "case_dir": "../clump-DB/dataset/shapes/14c04c62d088",
+      "src": "../clump-DB/dataset/shapes/14c04c62d088/molecule_mc.data",
+      "dst": "ms_data/msr5.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.684809895706544,
+        "round_R1": 0.4739928278129214,
+        "round_R2": 0.44761531077342753,
+        "D_in": 0.8861132251142237,
+        "r_in": 0.4430566125571119
+      }
+    },
+    {
+      "msr": 6,
+      "case_id": "6143b3b3a825",
+      "case_dir": "../clump-DB/dataset/shapes/6143b3b3a825",
+      "src": "../clump-DB/dataset/shapes/6143b3b3a825/molecule_mc.data",
+      "dst": "ms_data/msr6.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.7022811602895535,
+        "round_R1": 0.4901224264404399,
+        "round_R2": 0.46143381300857045,
+        "D_in": 0.8872648910182108,
+        "r_in": 0.4436324455091054
+      }
+    },
+    {
+      "msr": 7,
+      "case_id": "60a00b144209",
+      "case_dir": "../clump-DB/dataset/shapes/60a00b144209",
+      "src": "../clump-DB/dataset/shapes/60a00b144209/molecule_mc.data",
+      "dst": "ms_data/msr7.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6555652839075935,
+        "round_R1": 0.5064821512985858,
+        "round_R2": 0.477495705425356,
+        "D_in": 0.7901432036824458,
+        "r_in": 0.3950716018412229
+      }
+    },
+    {
+      "msr": 8,
+      "case_id": "060c371021d9",
+      "case_dir": "../clump-DB/dataset/shapes/060c371021d9",
+      "src": "../clump-DB/dataset/shapes/060c371021d9/molecule_mc.data",
+      "dst": "ms_data/msr8.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6617153624509267,
+        "round_R1": 0.5344881582835355,
+        "round_R2": 0.505439737713886,
+        "D_in": 0.7763401379554199,
+        "r_in": 0.38817006897770995
+      }
+    },
+    {
+      "msr": 9,
+      "case_id": "8e4a0475d015",
+      "case_dir": "../clump-DB/dataset/shapes/8e4a0475d015",
+      "src": "../clump-DB/dataset/shapes/8e4a0475d015/molecule_mc.data",
+      "dst": "ms_data/msr9.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6827133089760001,
+        "round_R1": 0.5234972483789863,
+        "round_R2": 0.493827041772274,
+        "D_in": 0.830909966836359,
+        "r_in": 0.4154549834181795
+      }
+    },
+    {
+      "msr": 10,
+      "case_id": "d59d5d674728",
+      "case_dir": "../clump-DB/dataset/shapes/d59d5d674728",
+      "src": "../clump-DB/dataset/shapes/d59d5d674728/molecule_mc.data",
+      "dst": "ms_data/msr10.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6946074293125731,
+        "round_R1": 0.48322440449398923,
+        "round_R2": 0.45494798049858565,
+        "D_in": 0.8671350827720915,
+        "r_in": 0.43356754138604575
+      }
+    },
+    {
+      "msr": 11,
+      "case_id": "834dc78e28ce",
+      "case_dir": "../clump-DB/dataset/shapes/834dc78e28ce",
+      "src": "../clump-DB/dataset/shapes/834dc78e28ce/molecule_mc.data",
+      "dst": "ms_data/msr11.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6457296608903741,
+        "round_R1": 0.5297637872916163,
+        "round_R2": 0.5027330441202367,
+        "D_in": 0.7916204756498337,
+        "r_in": 0.39581023782491687
+      }
+    },
+    {
+      "msr": 12,
+      "case_id": "b898145099a3",
+      "case_dir": "../clump-DB/dataset/shapes/b898145099a3",
+      "src": "../clump-DB/dataset/shapes/b898145099a3/molecule_mc.data",
+      "dst": "ms_data/msr12.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6624965151973914,
+        "round_R1": 0.5203380203654401,
+        "round_R2": 0.4908144644555422,
+        "D_in": 0.8202828765755423,
+        "r_in": 0.41014143828777117
+      }
+    },
+    {
+      "msr": 13,
+      "case_id": "e526da82b264",
+      "case_dir": "../clump-DB/dataset/shapes/e526da82b264",
+      "src": "../clump-DB/dataset/shapes/e526da82b264/molecule_mc.data",
+      "dst": "ms_data/msr13.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6501548558897092,
+        "round_R1": 0.4886150563631435,
+        "round_R2": 0.4609937109607476,
+        "D_in": 0.852253677456828,
+        "r_in": 0.426126838728414
+      }
+    },
+    {
+      "msr": 14,
+      "case_id": "403781313670",
+      "case_dir": "../clump-DB/dataset/shapes/403781313670",
+      "src": "../clump-DB/dataset/shapes/403781313670/molecule_mc.data",
+      "dst": "ms_data/msr14.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.7190222945954932,
+        "round_R1": 0.4838453825003708,
+        "round_R2": 0.45761112394870096,
+        "D_in": 0.8834811707048835,
+        "r_in": 0.44174058535244176
+      }
+    },
+    {
+      "msr": 15,
+      "case_id": "2471197638ca",
+      "case_dir": "../clump-DB/dataset/shapes/2471197638ca",
+      "src": "../clump-DB/dataset/shapes/2471197638ca/molecule_mc.data",
+      "dst": "ms_data/msr15.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6874481145535319,
+        "round_R1": 0.490586970749248,
+        "round_R2": 0.4650316172256,
+        "D_in": 0.8277035146068443,
+        "r_in": 0.41385175730342216
+      }
+    },
+    {
+      "msr": 16,
+      "case_id": "a2200ecab449",
+      "case_dir": "../clump-DB/dataset/shapes/a2200ecab449",
+      "src": "../clump-DB/dataset/shapes/a2200ecab449/molecule_mc.data",
+      "dst": "ms_data/msr16.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6477502544711828,
+        "round_R1": 0.5127959158776928,
+        "round_R2": 0.4852390003737069,
+        "D_in": 0.8340125810291972,
+        "r_in": 0.4170062905145986
+      }
+    },
+    {
+      "msr": 17,
+      "case_id": "da2c1f561109",
+      "case_dir": "../clump-DB/dataset/shapes/da2c1f561109",
+      "src": "../clump-DB/dataset/shapes/da2c1f561109/molecule_mc.data",
+      "dst": "ms_data/msr17.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6591497891143061,
+        "round_R1": 0.5235382742354312,
+        "round_R2": 0.4925088824424033,
+        "D_in": 0.804980543168574,
+        "r_in": 0.402490271584287
+      }
+    },
+    {
+      "msr": 18,
+      "case_id": "c99d141a08f7",
+      "case_dir": "../clump-DB/dataset/shapes/c99d141a08f7",
+      "src": "../clump-DB/dataset/shapes/c99d141a08f7/molecule_mc.data",
+      "dst": "ms_data/msr18.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6637020027489056,
+        "round_R1": 0.5065417378649685,
+        "round_R2": 0.47848107523191635,
+        "D_in": 0.8394040278188929,
+        "r_in": 0.41970201390944645
+      }
+    },
+    {
+      "msr": 19,
+      "case_id": "debc78473495",
+      "case_dir": "../clump-DB/dataset/shapes/debc78473495",
+      "src": "../clump-DB/dataset/shapes/debc78473495/molecule_mc.data",
+      "dst": "ms_data/msr19.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6749080179818694,
+        "round_R1": 0.5292262937858424,
+        "round_R2": 0.5010884136152165,
+        "D_in": 0.8215188892538272,
+        "r_in": 0.4107594446269136
+      }
+    },
+    {
+      "msr": 20,
+      "case_id": "e9e57e5da482",
+      "case_dir": "../clump-DB/dataset/shapes/e9e57e5da482",
+      "src": "../clump-DB/dataset/shapes/e9e57e5da482/molecule_mc.data",
+      "dst": "ms_data/msr20.data",
+      "shape_params": {
+        "L": 1.0,
+        "e": 0.75,
+        "f": 0.65
+      },
+      "metrics": {
+        "sphericity": 0.6558225243085865,
+        "round_R1": 0.5020838272092351,
+        "round_R2": 0.4749242099484965,
+        "D_in": 0.8177232412447425,
+        "r_in": 0.40886162062237125
+      }
+    }
+  ],
+  "template_count": 220,
+  "molfrac_count": 220,
+  "molfrac_sum": 1.0,
+  "outputs": {
+    "molecule_include": "MC_55867233",
+    "pour_include": "POUR_55867233",
+    "manifest": "MB_55867233.json"
+  },
+  "pour": {
+    "fixid": "pour_clumps1",
+    "ninsert": 280,
+    "nsteps": 0,
+    "seed": 4767548,
+    "region": "gen_area",
+    "rigid_fix": "make_clumps_1"
+  },
+  "template_map": [
+    {
+      "template_index": 1,
+      "bin_index": 1,
+      "msr": 1,
+      "mol_file": "ms_data/msr1.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 2,
+      "bin_index": 1,
+      "msr": 2,
+      "mol_file": "ms_data/msr2.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 3,
+      "bin_index": 1,
+      "msr": 3,
+      "mol_file": "ms_data/msr3.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 4,
+      "bin_index": 1,
+      "msr": 4,
+      "mol_file": "ms_data/msr4.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 5,
+      "bin_index": 1,
+      "msr": 5,
+      "mol_file": "ms_data/msr5.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 6,
+      "bin_index": 1,
+      "msr": 6,
+      "mol_file": "ms_data/msr6.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 7,
+      "bin_index": 1,
+      "msr": 7,
+      "mol_file": "ms_data/msr7.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 8,
+      "bin_index": 1,
+      "msr": 8,
+      "mol_file": "ms_data/msr8.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 9,
+      "bin_index": 1,
+      "msr": 9,
+      "mol_file": "ms_data/msr9.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 10,
+      "bin_index": 1,
+      "msr": 10,
+      "mol_file": "ms_data/msr10.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 11,
+      "bin_index": 1,
+      "msr": 11,
+      "mol_file": "ms_data/msr11.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 12,
+      "bin_index": 1,
+      "msr": 12,
+      "mol_file": "ms_data/msr12.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 13,
+      "bin_index": 1,
+      "msr": 13,
+      "mol_file": "ms_data/msr13.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 14,
+      "bin_index": 1,
+      "msr": 14,
+      "mol_file": "ms_data/msr14.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 15,
+      "bin_index": 1,
+      "msr": 15,
+      "mol_file": "ms_data/msr15.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 16,
+      "bin_index": 1,
+      "msr": 16,
+      "mol_file": "ms_data/msr16.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 17,
+      "bin_index": 1,
+      "msr": 17,
+      "mol_file": "ms_data/msr17.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 18,
+      "bin_index": 1,
+      "msr": 18,
+      "mol_file": "ms_data/msr18.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 19,
+      "bin_index": 1,
+      "msr": 19,
+      "mol_file": "ms_data/msr19.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 20,
+      "bin_index": 1,
+      "msr": 20,
+      "mol_file": "ms_data/msr20.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 21,
+      "bin_index": 2,
+      "msr": 1,
+      "mol_file": "ms_data/msr1.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 22,
+      "bin_index": 2,
+      "msr": 2,
+      "mol_file": "ms_data/msr2.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 23,
+      "bin_index": 2,
+      "msr": 3,
+      "mol_file": "ms_data/msr3.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 24,
+      "bin_index": 2,
+      "msr": 4,
+      "mol_file": "ms_data/msr4.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 25,
+      "bin_index": 2,
+      "msr": 5,
+      "mol_file": "ms_data/msr5.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 26,
+      "bin_index": 2,
+      "msr": 6,
+      "mol_file": "ms_data/msr6.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 27,
+      "bin_index": 2,
+      "msr": 7,
+      "mol_file": "ms_data/msr7.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 28,
+      "bin_index": 2,
+      "msr": 8,
+      "mol_file": "ms_data/msr8.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 29,
+      "bin_index": 2,
+      "msr": 9,
+      "mol_file": "ms_data/msr9.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 30,
+      "bin_index": 2,
+      "msr": 10,
+      "mol_file": "ms_data/msr10.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 31,
+      "bin_index": 2,
+      "msr": 11,
+      "mol_file": "ms_data/msr11.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 32,
+      "bin_index": 2,
+      "msr": 12,
+      "mol_file": "ms_data/msr12.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 33,
+      "bin_index": 2,
+      "msr": 13,
+      "mol_file": "ms_data/msr13.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 34,
+      "bin_index": 2,
+      "msr": 14,
+      "mol_file": "ms_data/msr14.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 35,
+      "bin_index": 2,
+      "msr": 15,
+      "mol_file": "ms_data/msr15.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 36,
+      "bin_index": 2,
+      "msr": 16,
+      "mol_file": "ms_data/msr16.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 37,
+      "bin_index": 2,
+      "msr": 17,
+      "mol_file": "ms_data/msr17.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 38,
+      "bin_index": 2,
+      "msr": 18,
+      "mol_file": "ms_data/msr18.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 39,
+      "bin_index": 2,
+      "msr": 19,
+      "mol_file": "ms_data/msr19.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 40,
+      "bin_index": 2,
+      "msr": 20,
+      "mol_file": "ms_data/msr20.data",
+      "molfrac": 0.0025
+    },
+    {
+      "template_index": 41,
+      "bin_index": 3,
+      "msr": 1,
+      "mol_file": "ms_data/msr1.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 42,
+      "bin_index": 3,
+      "msr": 2,
+      "mol_file": "ms_data/msr2.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 43,
+      "bin_index": 3,
+      "msr": 3,
+      "mol_file": "ms_data/msr3.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 44,
+      "bin_index": 3,
+      "msr": 4,
+      "mol_file": "ms_data/msr4.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 45,
+      "bin_index": 3,
+      "msr": 5,
+      "mol_file": "ms_data/msr5.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 46,
+      "bin_index": 3,
+      "msr": 6,
+      "mol_file": "ms_data/msr6.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 47,
+      "bin_index": 3,
+      "msr": 7,
+      "mol_file": "ms_data/msr7.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 48,
+      "bin_index": 3,
+      "msr": 8,
+      "mol_file": "ms_data/msr8.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 49,
+      "bin_index": 3,
+      "msr": 9,
+      "mol_file": "ms_data/msr9.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 50,
+      "bin_index": 3,
+      "msr": 10,
+      "mol_file": "ms_data/msr10.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 51,
+      "bin_index": 3,
+      "msr": 11,
+      "mol_file": "ms_data/msr11.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 52,
+      "bin_index": 3,
+      "msr": 12,
+      "mol_file": "ms_data/msr12.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 53,
+      "bin_index": 3,
+      "msr": 13,
+      "mol_file": "ms_data/msr13.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 54,
+      "bin_index": 3,
+      "msr": 14,
+      "mol_file": "ms_data/msr14.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 55,
+      "bin_index": 3,
+      "msr": 15,
+      "mol_file": "ms_data/msr15.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 56,
+      "bin_index": 3,
+      "msr": 16,
+      "mol_file": "ms_data/msr16.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 57,
+      "bin_index": 3,
+      "msr": 17,
+      "mol_file": "ms_data/msr17.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 58,
+      "bin_index": 3,
+      "msr": 18,
+      "mol_file": "ms_data/msr18.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 59,
+      "bin_index": 3,
+      "msr": 19,
+      "mol_file": "ms_data/msr19.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 60,
+      "bin_index": 3,
+      "msr": 20,
+      "mol_file": "ms_data/msr20.data",
+      "molfrac": 0.005
+    },
+    {
+      "template_index": 61,
+      "bin_index": 4,
+      "msr": 1,
+      "mol_file": "ms_data/msr1.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 62,
+      "bin_index": 4,
+      "msr": 2,
+      "mol_file": "ms_data/msr2.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 63,
+      "bin_index": 4,
+      "msr": 3,
+      "mol_file": "ms_data/msr3.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 64,
+      "bin_index": 4,
+      "msr": 4,
+      "mol_file": "ms_data/msr4.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 65,
+      "bin_index": 4,
+      "msr": 5,
+      "mol_file": "ms_data/msr5.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 66,
+      "bin_index": 4,
+      "msr": 6,
+      "mol_file": "ms_data/msr6.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 67,
+      "bin_index": 4,
+      "msr": 7,
+      "mol_file": "ms_data/msr7.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 68,
+      "bin_index": 4,
+      "msr": 8,
+      "mol_file": "ms_data/msr8.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 69,
+      "bin_index": 4,
+      "msr": 9,
+      "mol_file": "ms_data/msr9.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 70,
+      "bin_index": 4,
+      "msr": 10,
+      "mol_file": "ms_data/msr10.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 71,
+      "bin_index": 4,
+      "msr": 11,
+      "mol_file": "ms_data/msr11.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 72,
+      "bin_index": 4,
+      "msr": 12,
+      "mol_file": "ms_data/msr12.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 73,
+      "bin_index": 4,
+      "msr": 13,
+      "mol_file": "ms_data/msr13.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 74,
+      "bin_index": 4,
+      "msr": 14,
+      "mol_file": "ms_data/msr14.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 75,
+      "bin_index": 4,
+      "msr": 15,
+      "mol_file": "ms_data/msr15.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 76,
+      "bin_index": 4,
+      "msr": 16,
+      "mol_file": "ms_data/msr16.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 77,
+      "bin_index": 4,
+      "msr": 17,
+      "mol_file": "ms_data/msr17.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 78,
+      "bin_index": 4,
+      "msr": 18,
+      "mol_file": "ms_data/msr18.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 79,
+      "bin_index": 4,
+      "msr": 19,
+      "mol_file": "ms_data/msr19.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 80,
+      "bin_index": 4,
+      "msr": 20,
+      "mol_file": "ms_data/msr20.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 81,
+      "bin_index": 5,
+      "msr": 1,
+      "mol_file": "ms_data/msr1.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 82,
+      "bin_index": 5,
+      "msr": 2,
+      "mol_file": "ms_data/msr2.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 83,
+      "bin_index": 5,
+      "msr": 3,
+      "mol_file": "ms_data/msr3.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 84,
+      "bin_index": 5,
+      "msr": 4,
+      "mol_file": "ms_data/msr4.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 85,
+      "bin_index": 5,
+      "msr": 5,
+      "mol_file": "ms_data/msr5.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 86,
+      "bin_index": 5,
+      "msr": 6,
+      "mol_file": "ms_data/msr6.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 87,
+      "bin_index": 5,
+      "msr": 7,
+      "mol_file": "ms_data/msr7.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 88,
+      "bin_index": 5,
+      "msr": 8,
+      "mol_file": "ms_data/msr8.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 89,
+      "bin_index": 5,
+      "msr": 9,
+      "mol_file": "ms_data/msr9.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 90,
+      "bin_index": 5,
+      "msr": 10,
+      "mol_file": "ms_data/msr10.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 91,
+      "bin_index": 5,
+      "msr": 11,
+      "mol_file": "ms_data/msr11.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 92,
+      "bin_index": 5,
+      "msr": 12,
+      "mol_file": "ms_data/msr12.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 93,
+      "bin_index": 5,
+      "msr": 13,
+      "mol_file": "ms_data/msr13.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 94,
+      "bin_index": 5,
+      "msr": 14,
+      "mol_file": "ms_data/msr14.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 95,
+      "bin_index": 5,
+      "msr": 15,
+      "mol_file": "ms_data/msr15.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 96,
+      "bin_index": 5,
+      "msr": 16,
+      "mol_file": "ms_data/msr16.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 97,
+      "bin_index": 5,
+      "msr": 17,
+      "mol_file": "ms_data/msr17.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 98,
+      "bin_index": 5,
+      "msr": 18,
+      "mol_file": "ms_data/msr18.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 99,
+      "bin_index": 5,
+      "msr": 19,
+      "mol_file": "ms_data/msr19.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 100,
+      "bin_index": 5,
+      "msr": 20,
+      "mol_file": "ms_data/msr20.data",
+      "molfrac": 0.005000000000000002
+    },
+    {
+      "template_index": 101,
+      "bin_index": 6,
+      "msr": 1,
+      "mol_file": "ms_data/msr1.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 102,
+      "bin_index": 6,
+      "msr": 2,
+      "mol_file": "ms_data/msr2.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 103,
+      "bin_index": 6,
+      "msr": 3,
+      "mol_file": "ms_data/msr3.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 104,
+      "bin_index": 6,
+      "msr": 4,
+      "mol_file": "ms_data/msr4.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 105,
+      "bin_index": 6,
+      "msr": 5,
+      "mol_file": "ms_data/msr5.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 106,
+      "bin_index": 6,
+      "msr": 6,
+      "mol_file": "ms_data/msr6.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 107,
+      "bin_index": 6,
+      "msr": 7,
+      "mol_file": "ms_data/msr7.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 108,
+      "bin_index": 6,
+      "msr": 8,
+      "mol_file": "ms_data/msr8.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 109,
+      "bin_index": 6,
+      "msr": 9,
+      "mol_file": "ms_data/msr9.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 110,
+      "bin_index": 6,
+      "msr": 10,
+      "mol_file": "ms_data/msr10.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 111,
+      "bin_index": 6,
+      "msr": 11,
+      "mol_file": "ms_data/msr11.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 112,
+      "bin_index": 6,
+      "msr": 12,
+      "mol_file": "ms_data/msr12.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 113,
+      "bin_index": 6,
+      "msr": 13,
+      "mol_file": "ms_data/msr13.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 114,
+      "bin_index": 6,
+      "msr": 14,
+      "mol_file": "ms_data/msr14.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 115,
+      "bin_index": 6,
+      "msr": 15,
+      "mol_file": "ms_data/msr15.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 116,
+      "bin_index": 6,
+      "msr": 16,
+      "mol_file": "ms_data/msr16.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 117,
+      "bin_index": 6,
+      "msr": 17,
+      "mol_file": "ms_data/msr17.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 118,
+      "bin_index": 6,
+      "msr": 18,
+      "mol_file": "ms_data/msr18.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 119,
+      "bin_index": 6,
+      "msr": 19,
+      "mol_file": "ms_data/msr19.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 120,
+      "bin_index": 6,
+      "msr": 20,
+      "mol_file": "ms_data/msr20.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 121,
+      "bin_index": 7,
+      "msr": 1,
+      "mol_file": "ms_data/msr1.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 122,
+      "bin_index": 7,
+      "msr": 2,
+      "mol_file": "ms_data/msr2.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 123,
+      "bin_index": 7,
+      "msr": 3,
+      "mol_file": "ms_data/msr3.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 124,
+      "bin_index": 7,
+      "msr": 4,
+      "mol_file": "ms_data/msr4.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 125,
+      "bin_index": 7,
+      "msr": 5,
+      "mol_file": "ms_data/msr5.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 126,
+      "bin_index": 7,
+      "msr": 6,
+      "mol_file": "ms_data/msr6.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 127,
+      "bin_index": 7,
+      "msr": 7,
+      "mol_file": "ms_data/msr7.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 128,
+      "bin_index": 7,
+      "msr": 8,
+      "mol_file": "ms_data/msr8.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 129,
+      "bin_index": 7,
+      "msr": 9,
+      "mol_file": "ms_data/msr9.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 130,
+      "bin_index": 7,
+      "msr": 10,
+      "mol_file": "ms_data/msr10.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 131,
+      "bin_index": 7,
+      "msr": 11,
+      "mol_file": "ms_data/msr11.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 132,
+      "bin_index": 7,
+      "msr": 12,
+      "mol_file": "ms_data/msr12.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 133,
+      "bin_index": 7,
+      "msr": 13,
+      "mol_file": "ms_data/msr13.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 134,
+      "bin_index": 7,
+      "msr": 14,
+      "mol_file": "ms_data/msr14.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 135,
+      "bin_index": 7,
+      "msr": 15,
+      "mol_file": "ms_data/msr15.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 136,
+      "bin_index": 7,
+      "msr": 16,
+      "mol_file": "ms_data/msr16.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 137,
+      "bin_index": 7,
+      "msr": 17,
+      "mol_file": "ms_data/msr17.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 138,
+      "bin_index": 7,
+      "msr": 18,
+      "mol_file": "ms_data/msr18.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 139,
+      "bin_index": 7,
+      "msr": 19,
+      "mol_file": "ms_data/msr19.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 140,
+      "bin_index": 7,
+      "msr": 20,
+      "mol_file": "ms_data/msr20.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 141,
+      "bin_index": 8,
+      "msr": 1,
+      "mol_file": "ms_data/msr1.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 142,
+      "bin_index": 8,
+      "msr": 2,
+      "mol_file": "ms_data/msr2.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 143,
+      "bin_index": 8,
+      "msr": 3,
+      "mol_file": "ms_data/msr3.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 144,
+      "bin_index": 8,
+      "msr": 4,
+      "mol_file": "ms_data/msr4.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 145,
+      "bin_index": 8,
+      "msr": 5,
+      "mol_file": "ms_data/msr5.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 146,
+      "bin_index": 8,
+      "msr": 6,
+      "mol_file": "ms_data/msr6.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 147,
+      "bin_index": 8,
+      "msr": 7,
+      "mol_file": "ms_data/msr7.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 148,
+      "bin_index": 8,
+      "msr": 8,
+      "mol_file": "ms_data/msr8.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 149,
+      "bin_index": 8,
+      "msr": 9,
+      "mol_file": "ms_data/msr9.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 150,
+      "bin_index": 8,
+      "msr": 10,
+      "mol_file": "ms_data/msr10.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 151,
+      "bin_index": 8,
+      "msr": 11,
+      "mol_file": "ms_data/msr11.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 152,
+      "bin_index": 8,
+      "msr": 12,
+      "mol_file": "ms_data/msr12.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 153,
+      "bin_index": 8,
+      "msr": 13,
+      "mol_file": "ms_data/msr13.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 154,
+      "bin_index": 8,
+      "msr": 14,
+      "mol_file": "ms_data/msr14.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 155,
+      "bin_index": 8,
+      "msr": 15,
+      "mol_file": "ms_data/msr15.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 156,
+      "bin_index": 8,
+      "msr": 16,
+      "mol_file": "ms_data/msr16.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 157,
+      "bin_index": 8,
+      "msr": 17,
+      "mol_file": "ms_data/msr17.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 158,
+      "bin_index": 8,
+      "msr": 18,
+      "mol_file": "ms_data/msr18.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 159,
+      "bin_index": 8,
+      "msr": 19,
+      "mol_file": "ms_data/msr19.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 160,
+      "bin_index": 8,
+      "msr": 20,
+      "mol_file": "ms_data/msr20.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 161,
+      "bin_index": 9,
+      "msr": 1,
+      "mol_file": "ms_data/msr1.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 162,
+      "bin_index": 9,
+      "msr": 2,
+      "mol_file": "ms_data/msr2.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 163,
+      "bin_index": 9,
+      "msr": 3,
+      "mol_file": "ms_data/msr3.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 164,
+      "bin_index": 9,
+      "msr": 4,
+      "mol_file": "ms_data/msr4.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 165,
+      "bin_index": 9,
+      "msr": 5,
+      "mol_file": "ms_data/msr5.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 166,
+      "bin_index": 9,
+      "msr": 6,
+      "mol_file": "ms_data/msr6.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 167,
+      "bin_index": 9,
+      "msr": 7,
+      "mol_file": "ms_data/msr7.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 168,
+      "bin_index": 9,
+      "msr": 8,
+      "mol_file": "ms_data/msr8.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 169,
+      "bin_index": 9,
+      "msr": 9,
+      "mol_file": "ms_data/msr9.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 170,
+      "bin_index": 9,
+      "msr": 10,
+      "mol_file": "ms_data/msr10.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 171,
+      "bin_index": 9,
+      "msr": 11,
+      "mol_file": "ms_data/msr11.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 172,
+      "bin_index": 9,
+      "msr": 12,
+      "mol_file": "ms_data/msr12.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 173,
+      "bin_index": 9,
+      "msr": 13,
+      "mol_file": "ms_data/msr13.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 174,
+      "bin_index": 9,
+      "msr": 14,
+      "mol_file": "ms_data/msr14.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 175,
+      "bin_index": 9,
+      "msr": 15,
+      "mol_file": "ms_data/msr15.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 176,
+      "bin_index": 9,
+      "msr": 16,
+      "mol_file": "ms_data/msr16.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 177,
+      "bin_index": 9,
+      "msr": 17,
+      "mol_file": "ms_data/msr17.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 178,
+      "bin_index": 9,
+      "msr": 18,
+      "mol_file": "ms_data/msr18.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 179,
+      "bin_index": 9,
+      "msr": 19,
+      "mol_file": "ms_data/msr19.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 180,
+      "bin_index": 9,
+      "msr": 20,
+      "mol_file": "ms_data/msr20.data",
+      "molfrac": 0.0050000000000000044
+    },
+    {
+      "template_index": 181,
+      "bin_index": 10,
+      "msr": 1,
+      "mol_file": "ms_data/msr1.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 182,
+      "bin_index": 10,
+      "msr": 2,
+      "mol_file": "ms_data/msr2.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 183,
+      "bin_index": 10,
+      "msr": 3,
+      "mol_file": "ms_data/msr3.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 184,
+      "bin_index": 10,
+      "msr": 4,
+      "mol_file": "ms_data/msr4.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 185,
+      "bin_index": 10,
+      "msr": 5,
+      "mol_file": "ms_data/msr5.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 186,
+      "bin_index": 10,
+      "msr": 6,
+      "mol_file": "ms_data/msr6.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 187,
+      "bin_index": 10,
+      "msr": 7,
+      "mol_file": "ms_data/msr7.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 188,
+      "bin_index": 10,
+      "msr": 8,
+      "mol_file": "ms_data/msr8.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 189,
+      "bin_index": 10,
+      "msr": 9,
+      "mol_file": "ms_data/msr9.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 190,
+      "bin_index": 10,
+      "msr": 10,
+      "mol_file": "ms_data/msr10.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 191,
+      "bin_index": 10,
+      "msr": 11,
+      "mol_file": "ms_data/msr11.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 192,
+      "bin_index": 10,
+      "msr": 12,
+      "mol_file": "ms_data/msr12.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 193,
+      "bin_index": 10,
+      "msr": 13,
+      "mol_file": "ms_data/msr13.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 194,
+      "bin_index": 10,
+      "msr": 14,
+      "mol_file": "ms_data/msr14.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 195,
+      "bin_index": 10,
+      "msr": 15,
+      "mol_file": "ms_data/msr15.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 196,
+      "bin_index": 10,
+      "msr": 16,
+      "mol_file": "ms_data/msr16.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 197,
+      "bin_index": 10,
+      "msr": 17,
+      "mol_file": "ms_data/msr17.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 198,
+      "bin_index": 10,
+      "msr": 18,
+      "mol_file": "ms_data/msr18.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 199,
+      "bin_index": 10,
+      "msr": 19,
+      "mol_file": "ms_data/msr19.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 200,
+      "bin_index": 10,
+      "msr": 20,
+      "mol_file": "ms_data/msr20.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 201,
+      "bin_index": 11,
+      "msr": 1,
+      "mol_file": "ms_data/msr1.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 202,
+      "bin_index": 11,
+      "msr": 2,
+      "mol_file": "ms_data/msr2.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 203,
+      "bin_index": 11,
+      "msr": 3,
+      "mol_file": "ms_data/msr3.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 204,
+      "bin_index": 11,
+      "msr": 4,
+      "mol_file": "ms_data/msr4.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 205,
+      "bin_index": 11,
+      "msr": 5,
+      "mol_file": "ms_data/msr5.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 206,
+      "bin_index": 11,
+      "msr": 6,
+      "mol_file": "ms_data/msr6.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 207,
+      "bin_index": 11,
+      "msr": 7,
+      "mol_file": "ms_data/msr7.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 208,
+      "bin_index": 11,
+      "msr": 8,
+      "mol_file": "ms_data/msr8.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 209,
+      "bin_index": 11,
+      "msr": 9,
+      "mol_file": "ms_data/msr9.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 210,
+      "bin_index": 11,
+      "msr": 10,
+      "mol_file": "ms_data/msr10.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 211,
+      "bin_index": 11,
+      "msr": 11,
+      "mol_file": "ms_data/msr11.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 212,
+      "bin_index": 11,
+      "msr": 12,
+      "mol_file": "ms_data/msr12.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 213,
+      "bin_index": 11,
+      "msr": 13,
+      "mol_file": "ms_data/msr13.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 214,
+      "bin_index": 11,
+      "msr": 14,
+      "mol_file": "ms_data/msr14.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 215,
+      "bin_index": 11,
+      "msr": 15,
+      "mol_file": "ms_data/msr15.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 216,
+      "bin_index": 11,
+      "msr": 16,
+      "mol_file": "ms_data/msr16.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 217,
+      "bin_index": 11,
+      "msr": 17,
+      "mol_file": "ms_data/msr17.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 218,
+      "bin_index": 11,
+      "msr": 18,
+      "mol_file": "ms_data/msr18.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 219,
+      "bin_index": 11,
+      "msr": 19,
+      "mol_file": "ms_data/msr19.data",
+      "molfrac": 0.004999999999999999
+    },
+    {
+      "template_index": 220,
+      "bin_index": 11,
+      "msr": 20,
+      "mol_file": "ms_data/msr20.data",
+      "molfrac": 0.004999999999999999
+    }
+  ]
+}
